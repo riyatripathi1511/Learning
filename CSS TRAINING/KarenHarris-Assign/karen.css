@@ -1,0 +1,119 @@
+.header{
+    height:60px;
+    width:100%;
+    border: 2px none;
+}
+.box h1{
+    padding-right:100px;
+    padding-bottom:20px;
+    padding-left: 20px;
+}
+.container{
+    width:100%;
+    height:400px;
+    background-image:url(floralbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:2px none;
+}
+.content{
+    position: absolute;
+    top:100px;
+    bottom:0px;
+    left:350px;
+    right: 10px;
+    border:2px none;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.content .p1{
+    font-style:italic;
+    box-shadow: 2px 2px 2px white;
+    font-size:25px;
+    padding-bottom:10px;
+    margin-bottom:5px;
+    color:palevioletred;
+}
+.p2{
+    color:palevioletred;
+    font-size:40px;
+    padding-top:0px;
+    margin-top:-5px;
+}
+.content img{
+    border:2px solid palevioletred;
+    filter: drop-shadow(8px 8px 10px palevioletred);
+    filter: drop-shadow(8px 8px inset palevioletred);
+
+}
+.content .p3{
+    font-style:italic;
+    box-shadow: 2px 2px 2px white;
+    font-size:25px;
+    padding-bottom:7px;
+    margin-top:-20px;
+    margin-left:-10px;
+    color:palevioletred;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    border:2px none;
+}
+#uli{
+    background-color: darkmagenta;
+    overflow: hidden;
+}
+.li1{
+  list-style-type: none;
+  float:left;
+  padding-top:51px;
+  margin-right:40px;
+  font-size:25px;
+  color:white;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+.li1 a{
+    color:white;
+    /* text-decoration: underline; */
+    /* text-decoration-color: white; */
+    border-bottom:2px solid white;
+}
+.footer p{
+    background-color: whitesmoke;
+    justify-content: justify;
+    padding-top:20px;
+    padding-left:60px;
+    padding-right:60px;
+}
+#s1{
+    display: block;
+    color:black;
+   text-align: right;
+    margin-top:-7%; 
+    margin-right:6%;
+}
+#s2{
+    color:magenta;
+    float:right;
+    margin-top:-1.8%;
+}
+
+#s3{
+    color:palevioletred;
+    border:2px solid plum;
+    float:right;
+    border-radius:5px;
+    padding:3px;
+    margin-right:10%;
+}
+
+#s4{
+    float:right;
+    margin-left: 76%;
+    margin-top:-25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

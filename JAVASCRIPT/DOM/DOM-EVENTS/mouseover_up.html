@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* button{
+        color:cyan;
+        font-size: 40px;
+        background:yellow;
+        border-radius: 10px;
+       
+     } */
+     body{
+      height: 1000px;
+     }
+    </style>
+</head>
+
+<body>
+    <!-- <button id="btn">Click Me!</button> -->
+     <script>
+      //mouseup & mousedown
+      //   let button = document.getElementById("btn");
+      //    button.addEventListener('mousedown',mouseDown);
+      //    button.addEventListener('mouseup',mouseUp);
+      //    console.log(button);
+      //    function mouseDown(){
+      //       button.innerHTML = "the mouse button is held down."
+      //    }
+      //    function mouseUp(){
+      //       button.innerHTML = "mouse button is released"
+      //    }
+      //keydown
+
+      // window.addEventListener('keydown',checkkey);
+      // function checkkey(event){
+      //    console.log(event.key)
+      // }
+         //Scroll
+   // window.addEventListener('scroll',function(){
+   //    console.log('scrolling...')
+   // });
+   // window.addEventListener('wheel',function(event){
+   //    if(event.deltaY < 0){
+   //       console.log("scrolling up")
+   //    }
+   //    else if(event.deltaY > 0){
+   //       console.log("scrolling down");
+   //    }
+   // });
+   window.addEventListener('scroll',function(){
+      if(window.pageYOffset > 200){
+         document.body.style.background = "red";   
+   } 
+   else {
+         document.body.style.background = "white";
+      }
+   });
+</script>
+</body>
+</html>
+<!-- mouse over, responsive by adding dom events -->

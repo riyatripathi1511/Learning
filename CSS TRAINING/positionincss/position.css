@@ -1,0 +1,32 @@
+#parent{
+    border:2px solid;
+    height:700px;
+    position: relative;
+}
+#ch1{
+    height:100px;
+    background-color: blue;
+    width:200px;
+    margin:50px;
+    position:absolute;
+    right:100px;
+    bottom:300px;
+    display: inline-block;
+}
+#ch2{
+    height: 100px;
+    width:200px;
+    margin:50px;
+    background-color: yellow;
+    /* position:relative; */
+
+    display: inline-block;
+}
+#ch3{
+    height: 100px;
+    width:200px;
+    margin:50px;
+    background-color: red;
+    display: inline-block;
+
+}

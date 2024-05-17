@@ -1,0 +1,23 @@
+#cgcolor{
+    border-top-style:solid;
+    border-bottom-style:double;
+    border-left-style: dashed;
+    border-right-style: groove;
+    border-style: solid;
+    border-color: red blue green black;
+    border-width: 10px 5px 5px 10px;
+    width:50%;
+}
+#bg{
+    background-image: url(../picture/owl.png),url(../picture/squirrel.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 250px 250px , 250px 250px;
+    margin-left: 20px;
+}
+#color{
+    height: 300px;
+    width: 40%;
+    background-color: red;
+    opacity: 0.8;
+}

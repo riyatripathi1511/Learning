@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZooKeeperForm</title>
+</head>
+<body>
+    <h2>Zoo Keeper Application Form</h2>
+    <p style="font-family: cursive;"><em>Please complete the form. Mandatory fields are marked with a<sup style="color:red">*</sup></em></p>
+    <form>
+    <fieldset>
+        <legend>CONTACT DETAILS</legend>
+        <table>
+       <tr>
+        <td><label>Name <em style="color:red">*</em></label></td>
+        <td><input type="text" style="text-shadow: gainsboro;"></td>  
+       </tr>
+         <tr>
+         <td><label>Telephone &nbsp; &nbsp;</label></td>
+          <td><input type="number" style="text-shadow: gainsboro;"></td>
+        </tr>
+          <tr>
+        <td><label>Email <em style="color:red">*</em></label></td>
+         <td><input type="email" required="" style="text-shadow: gainsboro;"></td>
+        </tr>
+        </table>
+    </fieldset>
+
+     <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <table>
+          <tr>
+            <td><label><em style="color:red">*</em>Age</label></td>
+            <td><input type="number"></td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+            <td><select>
+              <option value="Female">Female</option>
+              <option value="male">Male</option>
+              <option value="other">Other</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td><label>When did you <br> first know <br> you wanted
+              to be <br>a zoo-keeper</label></td>
+            <td> <br> <br><select size="6">
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </option>
+            </select>
+            
+            
+            </td>
+          </tr>
+        </table>
+     </fieldset>
+     <fieldset>
+      <legend>PICK YOUR FAVORITE ANIMALS</legend>
+        <tr>
+          <td><input type="checkbox"> <label>Zebra</label></td>
+          <td><input type="checkbox"> <label>Cat</label></td>
+          <td><input type="checkbox"> <label>Anaconda</label></td>
+          <td><input type="checkbox"><label>Human</label></td> <br>
+        </tr>
+        <tr>
+          <td><input type="checkbox"> <label>Elephant</label></td>
+          <td><input type="checkbox"> <label>Wildebeest</label></td>
+          <td><input type="checkbox"> <label>Pigeon</label></td>
+          <td><input type="checkbox"><label>Crab</label></td>
+        </tr>
+     </fieldset>
+     <br><input type="submit" value="Submit Application" style="color: gray; border-color:skyblue; height: 50px; width:150px">
+    </form>
+</body>
+</html>

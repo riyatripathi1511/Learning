@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1">Heading 1</h1>
+    <h2 class="head2">Heading 2</h2>
+    <h3 class="head2">Heading 3</h3>
+   <p>Lorem ipsum dolor sit amet.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam!</p>
+</body>
+<script>
+    //id - ID selector
+       let head = document.getElementById("head1")
+       console.log(head);
+       head.innerHTML = "<h1> heading 1 <h1>";
+
+       let head2 = document.getElementsByClassName("head2")
+       console.log(head2);
+       for(let i=0; i< head2.length; i++)
+         head2[i].innerHTML = "New h TAG"
+</script>
+</html>

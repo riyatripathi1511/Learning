@@ -1,0 +1,491 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}   
+.header{
+    height:600px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(42, 41, 41, 0.3),rgba(56, 54, 54, 0.1)),url('beach-img.webp');
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    margin-bottom:50px;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:linear-gradient(rgba(1, 0, 0, 0.936),rgba(31, 26, 26, 0.936));
+    padding:0 30px;
+    top:0px;
+}
+.logo h1{ 
+    color: #f9f9f9;
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-weight: 600;
+}
+.logo span{
+  color:red;
+}
+.link ul li{
+    display: inline;
+    list-style-type: none;
+}
+.link ul li a{
+    font-size: 20px;
+    color:#f9f9f9;
+    text-decoration: none;
+    margin:0 30px 0px 10px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    
+}
+.link ul li a:hover{
+ text-decoration:underline red;
+ text-underline-offset: 30px;
+
+}
+.header h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    position: absolute;
+    top:240px;
+    left:380px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header h2{
+    font-size: 70px;
+    color:#f9f9f9;
+    text-align: center;
+    position: absolute;
+    top:280px;
+    left:60px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.vacation{
+    height:120vh;
+    width:100%;
+    border: 2px none;
+    margin-bottom:30px;
+    padding:0 30px;
+}
+.heading{
+   height: 60px;
+    width:100%;
+    padding:10px 30px;
+    border-bottom:2px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+
+}
+.heading h1{
+    font-weight: 400;
+    font-family: "Baloo Bhai 2", sans-serif;
+    letter-spacing: 1px;
+}
+.heading h2 a{
+    font-size:20px ;
+    color:red;
+    text-decoration:none;
+    font-family: "Baloo Bhai 2", sans-serif;
+
+}
+.img-container{
+    height:500px;
+    width: 80%;
+    border:2px none red;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-left:90px;
+    margin-top:30px;
+    margin-bottom:10px;
+
+}
+.img1,.img2,.img3{
+ 
+    height:450px;
+    width:250px;
+    border:2px solid gainsboro;
+   
+}
+.img1 img{
+    height:150px;
+    width:247px;
+}
+.img1 h1{
+color:royalblue;
+font-size: 25px;
+font-weight: 300;
+padding:15px;
+}
+.img1 h2{
+    font-weight: 200;
+    padding: 0 15px;
+}
+.img1 p{
+    width:240px;
+    color: rgb(40, 31, 31);
+    margin-bottom:15px;
+    padding:15px;
+}
+.img1 span{
+   padding:0 20px;
+   word-spacing: 5px;
+   font-size: 15px;
+   font-weight: 600;
+}
+.img2 img{
+    height:150px;
+    width:247px;
+}
+.img2 h1{
+    color:royalblue;
+    font-size: 25px;
+    font-weight: 300;
+    padding:15px;
+}
+.img2 h2{
+        font-weight: 200;
+        padding: 0 15px; 
+}
+.img2 p{
+        width:240px;
+        color: rgb(40, 31, 31);
+        margin-bottom:15px;
+        padding:15px;
+}
+.img2 span{
+       padding:0 20px;
+       word-spacing: 5px;
+       font-size: 15px;
+       font-weight: 600;
+}
+.img3 img{
+    height:150px;
+    width:247px;
+}
+.img3 h1{
+    color:royalblue;
+    font-size: 25px;
+    font-weight: 300;
+    padding:15px;
+}
+.img3 h2{
+        font-weight: 200;
+        padding: 0 15px;
+    
+}
+.img3 p{
+        width:240px;
+        color: rgb(40, 31, 31);
+        margin-bottom:15px;
+        padding:15px;
+}
+.img3 span{
+       padding:0 20px;
+       word-spacing: 5px;
+       font-size: 15px;
+       font-weight: 600;
+}
+.about{
+    height:100vh;
+    width:100%;
+    border: 2px none;
+    padding:0 30px;
+    margin-top:-60px;
+}
+.heading2{
+    height: 60px;
+    width:100%;
+    padding:5px 30px;
+    border-bottom:2px solid gainsboro;
+}
+.heading2 h1{
+    font-weight: 400;
+    font-family: "Baloo Bhai 2", sans-serif;
+    letter-spacing: 1px;
+}
+.container{
+    height:450px;
+    width:100%;
+    border:2px none;
+    display: flex;
+    justify-content: space-around;
+    margin-top:60px;
+}
+.para{
+    height:400px;
+    width:400px;
+    border: 2px none;
+}
+.para p{
+    width: 450px;
+    color:#5a4b4b;
+    font-family: "Baloo Bhai 2", sans-serif;
+    word-spacing: 3px;
+}
+.para p a{
+    text-decoration: none;
+    color:royalblue;
+}
+.para ul{
+    margin-top: 30px;
+    padding-left:20px;
+    margin-bottom: 30px;
+}
+.para ul li{
+    list-style-type: square;
+    color:#5a4b4b;
+    font-family: "Baloo Bhai 2", sans-serif;
+    word-spacing: 5px;
+}
+
+.para #a1{
+    border-radius: 5px;
+    text-decoration: none;
+    padding:6px 12px;
+    color:white;
+    background-color: rgb(246, 7, 7);
+    font-family: "Baloo Bhai 2", sans-serif;
+
+}
+.image{
+    height:400px;
+    width:400px;
+    border: 2px none;
+    background-image: url('man.png');
+    background-position: fixed;
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+}
+.blog{
+    height:700px;
+    width:100%;
+    background-image: url('blog.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    padding:0 30px;
+    margin-bottom:60px;
+}
+.heading3{
+    height: 80px;
+    width:100%;
+    padding:60px 30px;
+    border-bottom:2px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+.heading3 h1{
+    font-weight:300;
+    letter-spacing: 1px;
+    color:#f8eaf8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading3 h2 a{
+    font-size:20px ;
+    color:red;
+    text-decoration:none;
+    font-family: "Baloo Bhai 2", sans-serif;
+    position:relative;
+    top:10px;
+}
+.blog-container{
+    height:450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.blog-img1,.blog-img2,.blog-img3{
+    height:450px;
+    width:275px;
+    border:2px none gainsboro;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+.blog-img1 img,.blog-img2 img, .blog-img3 img{
+    height:210px;
+    width:275px;
+}
+.blog-img1 p,.blog-img2 p, .blog-img3 p{
+    color:rgb(91, 122, 215);
+    font-size: 25px;
+    margin-top:30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Baloo Bhai 2", sans-serif;
+    line-height: 25px;
+}
+.blog-img1 pre, .blog-img2 pre, .blog-img3 pre{
+margin-top:20px;
+padding:20px;
+line-height: 24px;
+color:rgb(89, 76, 76);
+font-family: "Baloo Bhai 2", sans-serif;
+}
+.client{
+    height:600px;
+    width:100%;
+    border: 2px none;
+    padding: 0 30px;
+}
+.heading4{
+    height: 60px;
+     width:100%;
+     padding:10px 30px;
+     border-bottom:2px solid gainsboro;
+     display: flex;
+     justify-content: space-between;
+ 
+ }
+ .heading4 h1{
+     font-weight: 400;
+     font-family: "Baloo Bhai 2", sans-serif;
+     letter-spacing: 1px;
+ }
+ .heading4 h2 a{
+     font-size:20px ;
+     color:red;
+     text-decoration:none;
+     font-family: "Baloo Bhai 2", sans-serif;
+     position:relative;
+     top:10px;
+ }
+ .client-container{
+    height:450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border:2px none;
+    margin-top:50px;
+ }
+ .client-container1, .client-container2, .client-container3{
+    height:450px;
+    width:275px;
+    border:2px none black;
+    margin-top: 10px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+ }
+ .client-container1 .icon{
+  color:white;
+  font-size: 60px;
+  width:120px;
+  height:120px;
+  border: 2px solid;
+  text-align: center;
+  padding:25px;
+  background-color:  rgb(229, 14, 14);
+  position:absolute;
+  top:50px;
+  left:70px;
+ }
+.client-container2 .icon{
+    color:white;
+    font-size: 60px;
+    width:120px;
+    height:120px;
+    border: 2px solid;
+    text-align: center;
+    padding:25px;
+    background-color:  rgb(229, 14, 14);
+    position:absolute;
+    top:50px;
+    left:70px;
+}
+.client-container3 .icon{
+    color:white;
+    font-size: 60px;
+    width:120px;
+    height:120px;
+    border: 2px solid;
+    text-align: center;
+    padding:25px;
+    background-color:  rgb(229, 14, 14);
+    position:absolute;
+    top:50px;
+    left:70px;
+}
+.client-content{
+    height:200px;
+    width: 250px;
+    border: 2px none;
+    position: absolute;
+    top:180px;
+    left: 10px;
+}
+.client-content h1{
+ color:rgb(67, 85, 140);
+ font-family: "Baloo Bhai 2", sans-serif;
+ font-weight: 400;
+ text-align: center;
+ font-size: 25px;
+ padding:10px;
+}
+.client-content p{
+    font-style: italic;
+    color:#6f6666;
+    text-align: center;
+    padding: 10px, 20px;
+    line-height: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    display: flex;
+    height:200px;
+    justify-content: space-between;
+    border-bottom:2px solid gainsboro;
+    padding: 0 30px;
+    margin:0 18px;
+}
+.footer-left h1{
+color:rgb(67, 85, 140);
+ font-family: "Baloo Bhai 2", sans-serif;
+ font-weight: 400;
+ font-size: 25px;
+}
+.footer-left p{
+    color:#6f6666;
+    line-height: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:13px;
+    
+}
+.footer-right a{
+display: inline-block;
+  color:white;
+  text-decoration: none;
+  background-color: rgb(229, 14, 14);
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.footer-bottom{
+    margin-top:15px;
+    height: 100px;
+    width: 100%;
+    border: 2px none;
+}
+.footer-bottom p{
+    text-align: center;
+    font-size: 15px;
+    margin-top:70px;
+    color:#6f6666;
+}
+.footer-bottom p span{
+    color: rgb(229, 14, 14);
+}

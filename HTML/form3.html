@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+    <table>
+        <tr>
+            <td><label>Username:  </label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Password:  </label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label>City of <br> Employment:  </label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Web server:  </label></td>
+            <td><select>
+                <option value="--Choose a server--" selected>--Choose a server--</option>
+                <option value="Apache">Apache</option>
+                <option value="IIS">Microsoft Internet Information Services (IIS)</option>
+                 <option value="Nginx">Nginx</option>
+                 <option value="Apache Tomcat">Apache Tomcat</option>
+            </select></td>
+        </tr>
+        <tr>
+           <td>Please specify <br>your role:</td>
+           <td><input type="radio" name="role">
+                <label>Admin</label> <br>
+                <input type="radio" name="role">
+                 <label>Engineer</label> <br>
+                 <input type="radio" name="role">
+                 <label>Manager</label> <br>
+                 <input type="radio" name="role">
+                  <label>Guest</label>
+        </td>
+        </tr>
+        <tr>
+            <td>Single Sign-on <br> to the following:</td>
+            <td><input type="checkbox">
+                <label>Mail</label> <br>
+                <input type="checkbox">
+                <label>Payroll</label> <br>
+                <input type="checkbox">
+                <label>Self-service</label>
+        </td>
+        </tr>
+        <tr>
+            <td>  </td>
+             <td><input type="submit" value="Login">&nbsp; <input type="submit" value="Reset"></td>
+        </tr>
+    </table>
+  </form>
+</body>
+</html>

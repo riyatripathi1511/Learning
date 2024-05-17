@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.column1{
+    background-color: #aaa;
+}
+.column2{
+    background-color: #bbb;
+}
+.column3{
+    background-color: #ccc;
+}
+.column4{
+    background-color: #ddd;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column1, .column2, .column3, .column4{
+    flex:25%;
+    padding:20px;
+}
+@media screen and (max-width: 992px){
+    .column1, .column2, .column3, .column4{
+        flex:50%;
+    }
+}
+@media screen and (max-width:600px){
+    .row{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,29 @@
+#cgcolor{
+ border-top-style:solid;
+ border-bottom-style: double;
+ border-right-style: dashed;
+ border-left-style: dotted;
+ border-top-color: blue;
+ border-color:red green yellow pink;
+ border-width:10px 5px 5px 10px;
+ border-radius: 10px 20px 30px 5px;
+ height: 200px;
+ width: 50%;
+}
+#bg{
+    background-image: url(picture/micky.jpeg),url(picture/owl.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size:250px 250px, 250px 250px;
+    opacity: 0.9;
+    padding:10px;
+}
+#color{
+    height:300px;
+    width:40%;
+    background-color: red;
+    opacity: 0.2;
+    background-image: url(picture/realowl.png);
+    background-position: center center;
+      
+}

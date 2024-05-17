@@ -1,0 +1,18 @@
+h1{
+    color:blue;
+}
+#color{
+  /* border-top-style:solid ;
+  border-bottom-style:double ;
+  border-right-style:dashed ;
+  border-left-style:dotted ; */
+  /* border properties moves in clock-wise  direction from top to left */
+  /* border-style:solid double dashed dotted; */
+  border-color: red  green yellow blue purple;
+  border-width: 50%;
+
+}
+.fchange{
+    background-color: aqua;border:2px solid red;
+    background-image: url(Image/cellphone.jpg);
+}

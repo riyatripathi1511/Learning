@@ -1,0 +1,33 @@
+#parent{
+    border:2px solid;
+    height:700px;
+}
+#ch1{
+    height:100px;
+    background-color: blue;
+    width:700px;
+    margin:50px;
+    box-shadow: 10px 10px 10px red;
+}
+#ch2{
+    height: 100px;
+    width:700px;
+    margin:50px;
+    background-color: yellow;
+    box-shadow: 10px 10px 10px palevioletred, 10px 10px 10px plum;
+}
+#ch3{
+    height: 100px;
+    width:700px;
+    margin:50px;
+    box-shadow: 10px 10px 10px green;
+}
+#paragraph{
+    height: 100px;
+    width:700px;
+    margin:50px;
+    box-shadow: 10px 10px 10px green;
+    /* border:2px solid pink; */
+    letter-spacing: 2px;
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+#uli{
+    background-color: blue;
+    overflow: auto;
+}
+.li1{
+  list-style-type: none;
+  float:left;
+  padding:10px;
+  margin:10px;
+  font-size:20px;
+  color:white;
+  font-weight: 300;
+  font-style: italic;
+  
+}
+.li1:hover{
+    background-color: aqua;
+}

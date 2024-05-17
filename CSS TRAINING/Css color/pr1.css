@@ -1,0 +1,6 @@
+.container{
+    background-image: url(../picture/cartoon.jpeg),url(../picture/micky.jpeg),url(../picture/owl.png),url(../picture/panda.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100px 100px,150px 150px,250px 250px, 200px 200px;
+    background-position: top left, bottom left, bottom right, top right;
+}

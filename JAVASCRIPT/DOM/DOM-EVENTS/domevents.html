@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- inline event -->
+    <!-- <button id = "btn" onclick="btnclick()">Click Me!</button> -->
+    <!-- External event -->
+     <button id = btn>Click Me!</button>
+     <script>
+        <!-- inline event -->
+
+    // function btnclick(){
+    //     console.log("button was clicked..^_^")
+    // }
+
+    // for external event
+    let button = document.getElementById("btn");
+    // button.addEventListener('click',function(){
+    //     console.log("button was clicked..^_^")
+    // });
+//    button.addEventListener('mouseover',function(){
+//     console.log("Mouse is over the Button")
+//    });
+
+   button.addEventListener('contextmenu',function(){
+    console.log("double - click")
+   });
+</script>
+</body>
+
+</html>

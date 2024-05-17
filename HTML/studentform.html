@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studentform</title>
+</head>
+<body>
+    <center>
+        <h1 style="color: purple;"><u>STUDENT REGISTRATION FORM</u></h1>
+    <form style="background-color: blueviolet; width:800px; text-align: left;border:2px solid">
+        <table>
+            <tr>
+                
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;FIRST NAME</td>
+                
+                <td><br> &nbsp; &nbsp;<input type="text" style="width: 180px; height:20px;">
+                 <label style="font-size: 15px;color:azure;">(max 30 characters a-z and A-Z)</label></td>
+            </tr>
+            <tr>
+            
+                <td style="color:whitesmoke" font-size="20px;"><br>&nbsp; &nbsp;LAST NAME</td>
+                <td><br> &nbsp; &nbsp;<input type="text" style="width: 180px; height:20px;">
+                <label style="font-size: 15px;color:azure;">(max 30 characters a-z and A-Z)</label></td>
+            </tr>
+            <tr>
+              
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;DATE OF BIRTH</td>
+                <td> <br>&nbsp;&nbsp; <select name="DOB" id="DOB" style="width:60px; height: 20px; font-weight: bold;" >
+                    <option value="-1" style="width:40px; height: 20px;"> Day:</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                </select>
+                 <select name="DOB" id="DOB" style="width:68px; height: 20px; font-weight: bold;">
+                    <option value="-1" style="width:30px"> Month:</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                </select>
+                <select name="DOB" id="DOB" style="width:60px; height: 20px; font-weight: bold;">
+                    <option value="-1" style="width:30px"> Year:</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                </select>
+               </td>
+            </tr>
+            <tr>
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;EMAIL ID</td>
+                <td><br> &nbsp; &nbsp;<input type="email" style="width: 180px; height:20px;"></td>
+            </tr>
+            <tr>
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;MOBILE NUMBER</td>
+                <td><br> &nbsp; &nbsp;<input type="number" maxlength="10" style="width: 180px; height:20px;">
+                <label style="font-size: 15px;color:azure;">(10 digit number)</label></td>
+            </tr>
+            <tr>
+                <td style="color:whitesmoke" font-size="20px;"><br><label>&nbsp; &nbsp;GENDER</label></td>
+                <td><br>&nbsp; &nbsp; <label for="gender" style="font-size:15px;color:azure">Male</label><input type="radio" id="gender"  name="male" style="height:20px; width:20px;">
+                &nbsp; <label for="female" style="font-size:15px;color:azure">Female</label><input type="radio" id="female" name="male" style="height:20px; width:20px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="color:whitesmoke" font-size="20px;"><br>&nbsp; &nbsp;ADDRESS</td>
+                <td><br> &nbsp; &nbsp;<textarea name="textarea1"  cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;CITY</td>
+                
+                <td><br> &nbsp; &nbsp;<input type="text" style="width: 180px; height:20px;">
+                 <label style="font-size: 15px;color:azure;">(max 30 characters a-z and A-Z)</label></td>
+            </tr>
+            <tr>
+                
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;PINCODE</td>
+                
+                <td><br> &nbsp; &nbsp;<input type="number" maxlength="6" style="width: 180px; height:20px;">
+                 <label style="font-size: 15px;color:azure;">(6 digit number)</label></td>
+            </tr>
+            <tr>
+                
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;STATE</td>
+                
+                <td><br> &nbsp; &nbsp;<input type="text" style="width: 180px; height:20px;">
+                 <label style="font-size: 15px;color:azure;">(max 30 characters a-z and A-Z)</label></td>
+            </tr>
+            <tr>
+                
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;COUNTRY</td>
+                
+                <td><br> &nbsp; &nbsp;<select style="width: 180px; height:25px;font-weight: bold;">
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="paris">Paris</option>
+                </select></td>
+            </tr>
+            <tr>
+                
+                <td style="color:whitesmoke" font-size="20px;"> <br>&nbsp; &nbsp;HOBBIES</td>
+                
+                <td><br> &nbsp; &nbsp;<label for="gender" style="font-size:15px;color:azure">Drawing</label><input type="checkbox" id="gender" size="20px" name="male" style="height:20px; width:20px">
+                    &nbsp; <label for="female" style="font-size:15px;color:azure">Singing</label><input type="checkbox" id="female" name="male" style="height:20px; width:20px">
+                    &nbsp; <label for="female" style="font-size:15px;color:azure">Dancing</label><input type="checkbox" id="female"  name="male" style="height:20px; width:20px">
+                    &nbsp; <label for="female" style="font-size:15px;color:azure">Sketching</label><input type="checkbox" id="female" name="male" style="height:20px; width:20px"> 
+                </td>
+            </tr>
+                    <tr>
+                        <td> </td>
+                   
+                    <td> &nbsp; <label for="female" style="font-size:15px;color:azure">Others</label><input type="checkbox" id="female" name="male" style="height:20px; width:20px">
+                     &nbsp; &nbsp;<input type="text" style="width: 180px; height:20px;"></td>
+              </td>
+            </tr>
+        </table>
+        <table>
+          <tr>
+            <td style="color:whitesmoke" font-size="20px;"><br>&nbsp; &nbsp;QUALIFICATION</td>
+           
+            <td style="color:whitesmoke; font-size:15px;"><br>&nbsp;&nbsp; &nbsp; &nbsp;Sr. No.</td>
+            <td style="color:whitesmoke; font-size:15px;"> <br>&nbsp; &nbsp;Examination</td>
+            <td style="color:whitesmoke; font-size:15px;" align="center"><br>&nbsp; &nbsp;Board</td>
+            <td style="color:whitesmoke; font-size:15px;" align="center"><br>&nbsp; &nbsp;Percentage</td>
+            <td style="color:whitesmoke; font-size:15px;" align="center"><br>&nbsp; &nbsp;Year of Passing</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;&nbsp; &nbsp;1</td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;Class X</td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;&nbsp; &nbsp;2</td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;Class XII</td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;&nbsp; &nbsp;3</td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;Graduation</td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;&nbsp; &nbsp;4</td>
+            <td style="color:whitesmoke; font-size:15px;">&nbsp; &nbsp;Masters</td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+            <td><input type="text" style="width: 150px; height:20px;"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="center"><label style="font-size: 15px;color:azure;">(10 char max)</label></td>
+            <td align="center"><label style="font-size: 15px;color:azure;">(upto 2 decimal)</label></td>
+          </tr>
+        </table>
+        <table>
+            <tr>
+                <td style="color:whitesmoke" font-size="20px;"><br>&nbsp; &nbsp;COURSES <br>&nbsp;&nbsp;APPLIED FOR</td>
+                <td><br>&nbsp; &nbsp; <label for="bca" style="font-size:15px;color:azure">BCA</label><input type="radio" id="bca"  name="course" style="height:20px; width:20px;">
+                &nbsp; <label for="bcom" style="font-size:15px;color:azure">B.Com</label><input type="radio" id="bcom" name="course" style="height:20px; width:20px;">
+                &nbsp; <label for="bsc" style="font-size:15px;color:azure">B.Sc</label><input type="radio" id="bsc"  name="course" style="height:20px; width:20px;">
+                &nbsp; <label for="ba" style="font-size:15px;color:azure">B.A</label><input type="radio" id="ba"  name="course" style="height:20px; width:20px;">
+             </td>
+            </tr>
+        </table>
+        <center>
+        <table>
+            <tr>
+                <td >
+                <br> 
+                <input type="submit" value="Submit" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:20px;color:black; border-radius: 4px;position: relative;">
+                 <input type="submit" value="Reset" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:20px;color:black; border-radius: 4px;">
+                </td>
+            </tr>
+        </table>
+    </center>
+    </form>
+   </center>
+</body>
+</html>

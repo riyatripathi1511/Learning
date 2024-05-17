@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="myinput">Enter your name:</label>
+        <input type="text" id="myinput">
+    </form>
+    <script>
+        let inputform = document.getElementById("myinput");
+
+        inputform.addEventListener('focus',myFocusFunc);
+        inputform.addEventListener('blur',myBlurFunction);
+
+        inputform.addEventListener('input',function(){
+            console.log(this.value);
+        }) //when you'll enter values it'll add in console one by on and remove as well
+        function myFocusFunc(){
+            inputform.style.background = "yellow";
+        }
+        function myBlurFunction(){
+            inputform.style.background = "white";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <h1 id="heading">New Heading Tag</h1> -->
+  <!--  <button id="clrbtn">CLICK ME! ^_^</button> -->
+
+    <ul id="list">
+        <li>List 1</li>
+        <li>List 2</li>
+    </ul>
+     <button id="btn">click here to add list item</button>
+       <script>
+         let list = document.getElementById("list")
+         let item = document.createElement("li")
+         let btn = document.getElementById("btn")
+         item.textContent="List 3";
+         btn.addEventListener('click',function(){
+             btn.style.color = "blue";
+             btn.style.backgroundColor="red";
+            list.appendChild(item);
+         });         
+        window.addEventListener('keydown',function(){
+          console.log('keydown')
+          })     
+    //      <script>
+    // //     let head = document.getElementById("heading")  
+    // //     let clrBtn = document.getElementById("clrbtn")
+    // //     clrBtn.addEventListener('click',function(){ // block
+    //         heading.style.color = "red"; //properties
+    //     }) <script>
+    
+    </script>
+
+
+  
+</body>
+</html>

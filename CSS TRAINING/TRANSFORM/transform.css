@@ -1,0 +1,17 @@
+/* 3d transform -x-axis, y-axis and z-axis */
+.parent{
+    border:2px solid red;
+    width:200px;
+    margin:150px;
+}
+.child{
+    height:200px;
+    width: 200px;
+    background-color: green;
+
+    /* Translate unit value -pixel and rotate unit value - deg */
+
+    transform:perspective(100px) translate3d(0px, 0px, -30px)
+
+    /* transform:perspective(800px) rotate3d(10,10,30,40deg) */
+}

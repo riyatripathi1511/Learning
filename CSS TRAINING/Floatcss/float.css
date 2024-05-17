@@ -1,0 +1,23 @@
+#parent{
+border:2px solid;
+height:600px;
+}
+#ch1{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: blue;
+    float: right;
+}
+#ch2{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color:yellow;
+}
+#ch3{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: red;
+}

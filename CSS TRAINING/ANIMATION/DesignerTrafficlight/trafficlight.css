@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.traffic-signal-light{
+    
+    width:300px;
+    height:800px;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background-image: linear-gradient(tranparent );
+    border-radius: 20px;
+    position: relative;
+}
+.protector{
+    height: 120px;
+    width: 480px;
+    border-radius: 15px;
+    border: 5px solid #222;
+    border-top: 200px solid #222;
+    border-left: 98px solid transparent;
+    border-right: 98px solid transparent;
+    background-image: linear-gradient(tranparent );
+    z-index: -2;
+    position: absolute;
+    top:26px;
+}
+.protector2{
+    height: 120px;
+    width: 480px;
+    border-radius: 15px;
+    border: 5px solid #222;
+    border-top: 200px solid #222;
+    border-left: 98px solid transparent;
+    border-right: 98px solid transparent;
+    background-image: linear-gradient(tranparent );
+    z-index: -2;
+    position: absolute;
+    top:306px;
+}
+.protector3{
+    height: 120px;
+    width: 470px;
+    border-radius: 15px;
+    border: 5px solid #222;
+    border-top: 200px solid #222;
+    border-left: 98px solid transparent;
+    border-right: 98px solid transparent;
+    background-image: linear-gradient(tranparent );
+    z-index: -2;
+    position: absolute;
+    top:550px;
+}
+@keyframes redlight{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: red;
+    }
+}
+@keyframes yellowlight{
+    0%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+@keyframes greenlight{
+    0%{
+        background-color: green;
+    }
+    100%{
+        background-color: green;
+    }
+}  
+.red-light{
+    width:280px;
+    height:250px;
+    border-radius: 50%;
+    animation-name:redlight;
+    animation-duration:3s;
+}
+.yellow-light{
+    width:280px;
+    height:250px;
+    border-radius: 50%;
+    animation-name:yellowlight;
+    animation-duration: 3s;
+    animation-delay:3s;
+}
+.green-light{
+    width:280px;
+    height:250px;
+    border-radius: 50%;
+    animation-name:greenlight;
+    animation-duration: 6s;
+    animation-delay:6s
+}
+.light-stand{
+    height:300px;
+    width: 100px;
+    background-color: #222;
+   position: absolute;
+   bottom: -140px;
+   border-radius: 10px;
+   background-image: linear-gradient(tranparent );
+}

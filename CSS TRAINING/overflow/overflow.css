@@ -1,0 +1,7 @@
+.div1{
+    height:400px;
+    width:400px;
+    border:solid;
+    overflow: hidden;
+    text-align: justify;
+}

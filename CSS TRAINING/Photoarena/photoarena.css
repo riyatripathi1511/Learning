@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(TowerEiffel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    font-family: "Baloo 2", sans-serif;
+}
+.nav{
+    width:100%;
+    height: 15vh;
+    background-color:#00000052;
+    color:#fff;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    width: 25%;
+    text-align:center;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px black;
+}
+nav .menu{
+    width:45%;
+    display:flex;
+    justify-content:space-around;
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(255 255 255);
+    font-weight: bold;
+
+}
+main{
+width:100%;
+height:80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color:#fff;
+}
+
+section h3{
+    font-size:35px;
+    font-weight:450;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+}
+section h1{
+ margin:14px 0px 18px 0px;
+ font-size: 45px;
+ font-weight: 500;
+ text-transform: uppercase;
+ text-shadow:2px 2px 2px black ;
+}
+section p{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+section a{
+    padding: 9px 30px;
+    border-radius:5px;
+    outline:none;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: 600;
+
+}
+section .btn1{
+  background-color: #fff;  
+  color:black;
+
+}
+section .btn1:hover{
+    background-color: #000;
+    color:#fff;
+    transition:all 0.3s linear;
+}
+section .btn2{
+    background-color: hsl(140, 69%, 53%);  
+    color:black;
+  }
+  section .btn2:hover{
+  background-color: blueviolet;
+  color:#fff;
+  transition:all 0.3s linear;
+  }
+  .container2{
+    background-color: cadetblue;
+    height:200vh;
+    width:100%;
+    font-family: "Madimi One", sans-serif;
+  }
+
+  .nav2{
+    width:100%;
+    height: 15vh;
+    color:#fff;
+    display: flex;
+    justify-content:flex;
+    align-items: center;
+    border:2px solid cadetblue
+  }
+ .logo2{
+    width: 45%;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  nav .menu2{
+    width:45%;
+    display:flex;
+    justify-content:space-evenly;
+    /* border:2px solid white; */
+    padding:15px;
+    margin-left:120px;
+    margin-top:15px;
+}
+.menu2 a{
+    text-decoration: none;
+    color:rgb(255 255 255);
+    font-weight: bold;
+    font-size:20px;
+    border: 2px solid white;
+    padding:15px;
+    width:35%;
+    text-align: center;
+}
+.img{
+     padding-top: 20px;
+     margin-top: -100%;
+     background-repeat: no-repeat;
+     background-position: center;
+  }
+  .img a{
+    display: block;
+    text-align: center;
+    padding: 9px 30px;
+    border-radius:5px;
+    outline:none;
+    text-decoration: none;
+    font-size:40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top:-20%;
+    color:#ffccaa;
+  }
+  #para{
+    color:black;
+    font-size:40px;
+    font-weight: 600;
+    padding-top:135px;
+    border-bottom: 5px solid white;
+    margin-bottom:20px;
+  }
+  .container3{
+   width: 100%;
+   height:60vh;
+   border:2px hidden;
+  }
+  .overlay-button1{
+    position: relative;
+    top:-40%;
+    left: -20%;
+    font-size: 25px;
+    color:white;
+    width:90px;
+    padding:10px;
+    border:3px;
+    border-radius: 5px;
+    background-color: black;
+  }
+  .overlay-button2{
+    position: relative;
+    top:-42%;
+    left: -22%;
+    font-size: 25px;
+    color:white;
+    width:150px;
+    padding:10px;
+    border:3px;
+    border-radius: 5px;
+    background-color: black;
+  }
+  .container3 .img1{
+    margin-left: 20px;
+  }
+  .container3 .img2{
+    margin-left:-5%;
+  
+  }
+  .container3 .img3{
+    margin-left:-10%;
+  }
+  .overlay-button3{
+    position: relative;
+    top:-55%;
+    right:-80%;
+    font-size: 25px;
+    color:white;
+    width:180px;
+    padding:10px;
+    border:3px;
+    border-radius: 5px;
+    background-color: black;
+  }

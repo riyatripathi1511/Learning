@@ -1,0 +1,29 @@
+.box{
+  background-color: grey;
+  border: 5px solid ;
+  width: 50%;
+  height: 800px;
+  background-image: url(a-p-j-abdul-kalam.png);
+  background-repeat: no-repeat;
+  text-align: justify;
+  padding: 40px;
+}
+.first{   
+margin-left: 300px;    
+}
+
+.first,h1,p{
+ 
+ margin-top: 20%;
+ margin-bottom: -70px;
+}
+.second{
+  margin-top: 20%;
+}
+.third{
+ 
+  margin-top: 10%;  
+}
+.fourth{
+  margin-left: 50%;
+}

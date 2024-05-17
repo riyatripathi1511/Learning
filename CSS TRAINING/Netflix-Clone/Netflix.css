@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  background: #000;
+  color: #fff;
+  width: 100%;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 26px 56px;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+header .logo svg {
+  fill: #e50914;
+  height: 37px;
+}
+header div + div {
+  text-align: right;
+}
+header a.button {
+  display: inline-block;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 17px;
+  border-radius: 3px;
+}
+header select {
+  background: rgba(23, 23, 23, 0.2);
+  color: #fff;
+  padding: 6px 0px 6px 23px;
+  width:100px;
+}
+header div.select {
+  display: inline-block;
+  margin-right: 10px;
+}
+header div.select svg {
+  height: 20px;
+  fill: #fff;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+div.splash {
+  position: relative;
+  border-bottom: 7px solid rgb(37, 34, 34);
+}
+div.splash div.gradient {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+div.splash div.background img {
+  max-width: 100%;
+  opacity: 0.6;
+}
+div.splash div.content {
+  max-width: 755px;
+  position: absolute;
+  inset: 0;
+  top:60px;
+  left: 50%;
+  margin-left: -360px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.splash .content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 8px;
+}
+.splash .content h2 {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 16px;
+}
+.splash .content h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 16px;
+}
+.cta form {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  margin-top: 20px;
+  position: relative;
+}
+.cta input {
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  width: 100%;
+  background: rgba(23, 23, 23, 0.2);
+  border: 1px solid #776c6c
+}
+.cta input ~ span {
+  position: absolute;
+  top: 19px;
+  left: 13px;
+  color: #aaa;
+}
+.cta input:focus{
+    padding-top: 19px;
+    padding-bottom:8px;
+    border:1px solid #fff;
+    color:white;
+}
+.cta input:focus ~ span {
+  top: 4px;
+  font-size: 0.8rem;
+  transition: all 0.15s ease;
+  pointer-events: none;
+}
+.cta button{
+  font-size:1.645rem;
+  padding: 11px 26px;
+  background-color: #e50914;
+  margin:0 7px;
+  border:0;
+  color:#fff;
+}
+section{
+  height:90vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:50px;
+  padding: 72px 52px;
+  align-items: center;
+  /* margin: 0 32px; */
+  border-bottom: 7px solid rgb(37, 34, 34);
+
+}
+section div.texts h1{
+  font-size:3rem;
+  margin:6px;
+  padding: 10px;
+}
+section div.texts p{
+  font-size:1.625rem;
+  margin:4px;
+  padding: 5px;
+}
+.media{
+  position: relative;
+}
+.media .s1 img{
+  width: 500px;
+  height:300px;
+  position: absolute;
+  top:-150px;
+  padding:10px;
+}
+.media .s1 video{
+  width: 400px;
+  height:200px;
+  position: absolute;
+  top:-85px;
+  left:51px;
+  z-index: -3;
+}
+section:nth-child(even) div.texts{
+  order:2;
+}
+.media .s2 img{
+  width:400px;
+
+}
+.s2 .download{
+  height:70px;
+  width: 280px;
+  padding:10px;
+  border:2px solid #666;
+  border-radius: 15px;
+  background-color: #000;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  position:absolute;
+  bottom:25px;
+  left:50px;
+
+}
+.s2 .download img.img1{
+  height:60px;
+  width: auto;
+}
+.s2 .download .img2{
+  height:40px;
+  width: auto;
+}
+.download p{
+  position: absolute;
+  bottom: 30px;
+  left:70px;
+
+}
+span{
+  position: absolute;
+  top:40px;
+  left:70px;
+  font-size: 14px;
+  color:rgb(53, 151, 237);
+}
+.media .s3 img{
+  width:500px;
+  position: absolute;
+  bottom:-150px;
+
+}
+.media .s3 video{
+  width: 310px;
+  position: absolute;
+  bottom:-9px;
+  left:95px;
+  z-index: -4;
+}
+.s4 img{
+  width:400px;
+}
+/* FAQ */
+.faq{
+  padding:63px 30px;
+  text-align: center;
+  border-bottom: 7px solid rgb(37, 34, 34);
+
+}
+.faq h1{
+  font-size: 3.125rem;
+  margin: -40px;
+}
+.accordion{
+  margin:60px auto;
+  width: 100%;
+  max-width: 750px;
+}
+.accordion li{
+  list-style: none;
+  width: 100%;
+  padding:5px;
+}
+.accordion li label{
+  display: flex;
+  align-items: center;
+  padding:20px;
+  font-size:18px;
+  font-weight: 500;
+  background-color:#303030;
+  margin-bottom:2px;
+  cursor: pointer;
+  position:relative;
+}
+label::after{
+  content:'+';
+  font-size: 34px;
+  position: absolute;
+  right:20px;
+  transition: transform 0.5s;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.accordion .answer{
+  background-color:#303030;
+  text-align: left;
+  padding:0 20px;
+  max-height: 0;
+  overflow:hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="checkbox"]:checked + label + .answer{
+  max-height: 600px;
+  padding:30px 20px;
+}
+.accordion input[type="checkbox"]:checked + label::after{
+  transform: rotate(135deg);
+}
+.faq h3{
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px 36px;
+}
+.faq form{
+  max-width:580px;
+  margin: 0 auto;
+
+}
+/* Footer */
+.footer{
+  padding:10px 15% 10px 30px;
+  margin:30px 30px 30px 0;
+}
+.footer h2{
+  font-size: 18px;
+  font-weight:400;
+  margin-bottom: 30px;
+  color: #aaa;
+  padding-left: 8px;
+}
+.footer h2 a{
+  color:#aaa;
+}
+.footer .row{
+  display: flex;
+  justify-content: space-between;
+}
+.footer .col{
+  margin-bottom:20px;
+  margin-right: 10px;
+}
+.footer .col a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:#aaa;
+  margin:10px;
+}
+.footer .btn{
+  background-color: transparent;
+  margin:5px;
+  position: relative;
+}
+.footer .btn select{
+  background-color: black;
+  color:#fff;
+  padding:10px 20px;
+}
+.footer .btn svg{
+position: absolute; 
+color:#fff; 
+left:5px;
+bottom: 12px;
+margin-right: 18px;
+}
+.footer p{
+  color:#aaa;
+  margin:10px;
+}
+/* ------- media-queries-for-small-screen ------------- */
+@media only screen and (max-width:600px){
+  .logo{
+    width: 100px;
+    height:14px;
+  }
+}

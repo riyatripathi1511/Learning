@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append</title>
+</head>
+<body>
+    <div>
+    <!-- how to add/insert/appendChild() -->
+    <!-- div id="intro" -->
+    <p>This is P Tag</p>
+</div>
+ <ul id="list">
+   <!-- parent element -->
+   <!-- child element -->
+
+   <li>Item1</li>
+   <!-- firstElementChild -->
+   <li>Item2</li>
+   <!-- nextElementSibling -->
+   <li>Item3</li>
+   <li>Item4</li>
+ </ul>
+ <script>
+    let list1 = document.getElementById("list");
+    let item = document.createElement("li");
+      item.textContent = "Item5";
+    let pos = list1.lastElementChild.previousElementSibling;
+    console.log(pos);
+  list1.insertBefore(item,pos);//which element,which position
+ </script>
+</body>
+</html>

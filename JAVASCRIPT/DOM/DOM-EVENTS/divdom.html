@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border : 1px solid black;
+            height: 200px;
+            width: 200px;
+             overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="externalElement">
+        Content inside the external element -->
+        <!-- <div>Scroll me!</div> -->
+      <!-- </div> -->
+      <div id = "divdom">
+       <div style="height: 1000px;">Scroll Me ^_^ It is feature of dom event </div>
+      </div>
+   <script>
+    let scrl = document.getElementById("divdom")
+    console.log(scrl)
+    scrl.addEventListener('scroll',function(){
+     console.log("The content is scrolled successfully");
+    });
+//   let externalElement = document.getElementById("externalElement");
+
+// // Add a scroll event listener to the external element
+// externalElement.addEventListener("scroll", function(event) {
+//     // Your scroll event handling code here
+//     console.log("External element scrolled");
+// });
+
+// dom tree - external file adding and try window keydown and scroll event - 15 May 2024 
+   </script>
+</body>
+</html>

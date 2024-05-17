@@ -1,0 +1,20 @@
+/* Transition property mostly used in animation and hover*/
+
+#parent{
+    height:100px;
+    width:100px;
+    background-color: green;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay:1s;
+    margin:50px;
+}
+#parent:hover{
+    background-color: yellow;
+    width:200px;
+    height:300px;
+}
+a:active{
+    background-color: yellow;
+    color:red;
+}
