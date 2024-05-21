@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        background-color: cornsilk;
+        padding: 100px;
+      }
+      #mydiv {
+        background-color: darkblue;
+        padding: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mydiv">
+      <button id="btn">Click Here !</button>
+    </div>
+    <script>
+      let b = document.getElementById("btn");
+      let d = document.getElementById("mydiv");
+      b.addEventListener("click", btnclick, true);
+      d.addEventListener("click", divclick, true);
+      document.body.addEventListener("click", bodyclick, true);
+
+      function btnclick() {
+        console.log("button was clicked..");
+      }
+      function divclick() {
+        console.log("div clicked..");
+      }
+      function bodyclick() {
+        console.log("body clicked..");
+      }
+    </script>
+  </body>
+</html>
