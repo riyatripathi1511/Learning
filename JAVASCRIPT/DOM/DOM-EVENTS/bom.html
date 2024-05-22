@@ -6,13 +6,42 @@
   <title>Document</title>
 </head>
 <body>
-  <button id="btn" onclick = "fun()">Redirect to Google</button>
+  <!-- <button id="btn">Redirect to Google</button> -->
+  <button id="btn1">Google</button>
+  <!-- <button id="btn2">Close</button>
+  <button id="btn3">Go</button> -->
   <script>
-    function fun(){
-      // window.location = "https://www.google.com";
-      location.href = "https://www.google.com";
-      
-    }
+    let btn1 = document.getElementById("btn1");
+    // let btn2 = document.getElementById("btn2");
+    // let btn3 = document.getElementById("btn3");
+  
+    // let url = "https://www.google.com";
+    let features = "height = 500, width = 500";
+
+    // var win;
+   btn1.addEventListener("click",function(){
+    window.open("https://www.google.com","google",features);
+    });
+  //   btn3.addEventListener("click",function(){
+  //     win = window.open("https//www.linkedin.com","google");
+  //   });
+  //   btn2.addEventListener("click",function(){
+  //     win.close();
+  //   })
+  //   function fun(){
+  //     // window.location = "https://www.google.com";
+  //     // location.href = "https://www.google.com";
+  //     location.assign("https://www.linkedin.com");
+  //     // location.replace("https://www.google.com")
+  //       location.reload();
+  //   }
+  //   console.log(window.innerHeight)
+  //   console.log(window.innerWidth)
+  //   console.log(location.href)
+  //   console.log(location.pathname)
+  //   console.log(location.hostname)
+  //   console.log(location.protocol)
+  //   console.log(screen.height)
   </script>
 </body>
 </html>
