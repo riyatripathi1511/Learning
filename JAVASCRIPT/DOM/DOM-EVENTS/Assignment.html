@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remove Drop-Down List Item</title>
+</head>
+<body>
+    <label for="mySelect">Choose an item:</label>
+    <select id="mySelect">
+        <option value="item1">Item 1</option>
+        <option value="item2">Item 2</option>
+        <option value="item3">Item 3</option>
+        <option value="item4">Item 4</option>
+    </select>
+    <button onclick="removeSelectedItem()">Remove Selected Item</button>
+
+    <script>
+        function removeSelectedItem() {
+            let user = prompt("Enter the items")
+            let selectElement = document.getElementById('mySelect');
+            let selectedIndex = selectElement.selectedIndex;
+            
+            if (selectedIndex >= 0) {
+                selectElement.remove(selectedIndex);
+            } else {
+                alert('Please select an item to remove.');
+            }
+        }
+    </script>
+</body>
+</html>
