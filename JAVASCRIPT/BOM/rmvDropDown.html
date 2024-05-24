@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remove Dropdown Item with Prompt</title>
+  </head>
+  <body>
+    <button onclick="removeItem()">Remove Item</button>
+
+    <select id="myDropdown">
+      <option value="Red">Red</option>
+      <option value="Green">Green</option>
+      <option value="Blue">Blue</option>
+      <option value="Yellow">Yellow</option>
+    </select>
+
+    <script>
+      function removeItem() {
+        const userInput = prompt("Enter the item to remove:");
+        const dropdown = document.getElementById("myDropdown");
+
+        if (userInput !== null) {
+          for (let i = 0; i < dropdown.options.length; i++) {
+            if (
+              dropdown.options[i].value === userInput ||
+              dropdown.options[i].text === userInput
+            ) {
+              dropdown.remove(i);
+              alert("Removed: " + userInput);
+              return;
+            }
+          }
+
+          alert("Item not found: " + userInput);
+        }
+      }
+    </script>
+  </body>
+</html>
