@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Remove items:
+    <select id="select1"> 
+        <option>CSS</option>
+        <option>JAVASCRIPT</option>
+        <option>REACT JS</option>
+        <OPtion>NODES JS</OPtion>
+        <option>HTML</option>
+    </select>
+
+    <script>
+//         document.getElementById("select1").addEventListener("change", function() {
+//   var selectedIndex = this.selectedIndex;
+//   if (selectedIndex !== -1) {
+//     this.remove(selectedIndex);
+//     console.log("Item removed");
+//   } else {
+//     console.log("No item selected");
+//   }
+// });
+
+
+
+
+
+let dropdown = document.getElementById("select1");
+// Add event listener to the drop-down
+dropdown.addEventListener("change", function() {
+    // Get the selected index
+   
+let selectedIndex = prompt("enter");
+    if (selectedIndex !== null) {
+          for (let i = 0; i < dropdown.options.length; i++) {
+            if (
+              dropdown.options[i].value === selectedIndex ||
+              dropdown.options[i].text === selectedIndex
+            ) {
+              dropdown.remove(i);
+              alert("Removed: " + selectedIndex);
+              return;
+            }
+          }
+
+          alert("Item not found: " + selectedIndex);
+        }
+
+    // Remove the selected option from the drop-down
+    // dropdown.remove(selectedIndex);
+});
+    </script>
+</body>
+</html>
