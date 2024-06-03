@@ -1,0 +1,41 @@
+//map
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+let arr = [1, 2, 3, 4, 5];
+let result = [];
+for (let i = 0; i < arr.length; i++) {
+  // Multiply each element by 2 and push it to the result array
+  result.push(arr[i] * 2);
+}
+// Print the result array
+console.log(result);
+//  Question 2
+
+// Consider the following array of objects representing students. Use destructuring within the filter method to find all students who scored more than 80 in mathematics. Then log the names of these students.
+
+const students = [
+  { name: "Alice", scores: { math: 85, english: 78 } },
+  { name: "Bob", scores: { math: 92, english: 88 } },
+  { name: "Charlie", scores: { math: 72, english: 95 } },
+  { name: "David", scores: { math: 90, english: 80 } }
+];
+
+for (let i = 0; i < students.length; i++) {
+  const { name, scores: { math } } = students[i];
+  if (math > 80) {
+    console.log(name);
+  }
+}
+
+
+  </script>
+</body>
+</html>
