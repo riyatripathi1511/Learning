@@ -49,7 +49,7 @@ marks: 60
    marks: 70
 }
 ];
-let number = student.filter( val => val.marks>60)
+let number = student.filter( val => val.marks > 60)
 console.log(number)
 
 // Question 
