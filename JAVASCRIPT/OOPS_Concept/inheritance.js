@@ -31,6 +31,9 @@ class manager_ji extends employee{
     this.role = role;
     super.func();
   }
+  static greet(){
+    console.log("Hello ji,Mai hoon manager ji. >_<")
+  }
 }
 class team_lead extends manager_ji{
    
@@ -40,3 +43,4 @@ console.log(manager1)
 
 let manager2 = new team_lead("Tabasum Nisha",23,"Java Developer")
 console.log(manager2)
+manager_ji.greet(); // for static function we use class-name for calling it.
