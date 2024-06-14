@@ -12,6 +12,10 @@ let student = `{
 
   }
 }`
+let std = JSON.parse(student);
+// stringify - > object to string
+//parse -> string to object
+console.log(std)
 
 let school = {
   st_name : "Rohan",
@@ -22,5 +26,5 @@ console.log(school,"OBJECT")
 console.log(JSON.stringify(school))
 
 // console.log(student,"JSON")
-// let std = JSON.parse(student); //-
+// let std = JSON.parse(student);
 // console.log(std,"Object")

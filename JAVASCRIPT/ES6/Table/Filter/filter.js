@@ -34,3 +34,10 @@ std_city: "Noida"
 let std_noida = student.filter(val => val.std_city == "Noida")
 console.log(std_noida)
 
+// map function
+console.log("Map function")
+let arrMap = [1,2,3,4,5];
+// result = [2,4,6,8.10]
+
+let newMap = arrMap.map((value) => value * 2);
+console.log(newMap)

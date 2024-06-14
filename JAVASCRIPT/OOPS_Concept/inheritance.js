@@ -1,4 +1,6 @@
 //INHERITANCE - multilevel inheritance supports here
+// inheritance : parent class -> child class using extend keyword
+//object -> child class // multiple child classes -> most child class
 class emp{
   constructor(n){
     this.name = n;
