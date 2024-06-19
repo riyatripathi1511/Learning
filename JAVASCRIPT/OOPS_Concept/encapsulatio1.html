@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function messageFunc(){
+    const message = "Hey there!"
+    console.log("Message from  inside: ",message);
+}
+
+// Calling the function which internally defines the message
+messageFunc(); 
+
+// Trying to access message from outside the function which defines it
+console.log("Message from  outside: ",message);
+</script>
+</body>
+</html>
