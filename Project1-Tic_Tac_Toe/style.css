@@ -31,6 +31,7 @@ body{
   box-shadow: 0 0 1rem rgba(0,0,0,0.2);
   font-size: 8vmin;
   color:#b0413e;
+  background-color: #ffffc7;
 }
 #reset-btn{
   padding: 1rem;
