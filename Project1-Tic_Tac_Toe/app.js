@@ -28,4 +28,9 @@ boxes.forEach((box) => {
 
   });
 });
-const checkWinner = ()
+const checkWinner = () => {
+  for(pattern of winPatterns){
+    console.log(pattern);
+    
+  }
+}
